@@ -139,23 +139,29 @@ h2 {
 
 #feedback_form{
     background-size: cover;
-    height: 400px;
 }
 
 .feedback_form_block{
-    background-color: rgba(135, 196, 253, 0.3);;
+    background-color: rgba(135, 196, 253, 0.3);
 }
 input {
+    margin-top: 10px;
     border-radius: 10px;
 }
 
+input[type="button"] {
+    float: right;
+    padding: 5px;
+    background-color: #24b732;
+}
+
 form {
-    border-radius: 5px;
-    background: #24b732;
+    border-radius: 10px;
+    background: rgba(135, 196, 253, 1);
     display: inline-block;
-    padding: 70px;
+    padding: 30px 70px;
     margin-top: 60px;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-bottom: 60px;
 }
 
