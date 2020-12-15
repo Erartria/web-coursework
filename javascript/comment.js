@@ -8,7 +8,6 @@ const createComment = function (obj, right=false) {
     for (let i = 0; i < 7; i += 1)
         div_el.push(document.createElement('div'))
     right === false ? div_el[0].classList.add('message','flex', 'left') : div_el[0].classList.add('message', 'right', 'flex')
-    console.log(div_el[0])
     div_el[1].className = "content"
     div_el[2].className = "user"
     div_el[3].className = "user_name"

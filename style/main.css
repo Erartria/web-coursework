@@ -47,6 +47,7 @@
 #goods {
     display: block;
 }
+
 h3 {
     font-style: italic;
     font-size: 24px;
@@ -135,6 +136,8 @@ h3 {
 }
 
 .item-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
     position: absolute;
     font-family: 'Times New Roman';
     font-weight: bold;
@@ -145,7 +148,7 @@ h3 {
     margin-top: -269px;
     margin-left: 30px;
     padding: 5px;
-    height: 248px;
+    height: 210px;
     width: 215px;
     background: rgba(135, 196, 253, 0.1);
 }
@@ -187,9 +190,11 @@ h3 {
     padding: 10px;
     background-color: rgba(135, 196, 253, 0.2);
 }
-#horse_gallery_thumbnails li{
+
+#horse_gallery_thumbnails li {
     margin: 0;
 }
+
 #horse_gallery_thumbnails {
     flex-direction: column;
     max-height: 500px;
@@ -211,12 +216,14 @@ h3 {
     width: 800px;
     border-radius: 10px;
 }
-.feedback_messages{
+
+.feedback_messages {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
     background: rgba(135, 196, 253, 0.2);
 }
+
 .message {
     margin: 5px;
     flex-wrap: nowrap;
@@ -237,7 +244,7 @@ h3 {
 }
 
 .message .user .user_name,
-.message .user .age{
+.message .user .age {
     display: inline-block;
 }
 
@@ -248,9 +255,11 @@ h3 {
 .message .user .age::before {
     content: "\00a0 ";
 }
+
 .message .user .user_name::after {
     content: ',';
 }
+
 .user_name .context {
     font-size: 0.5em;
     color: black;
@@ -260,6 +269,7 @@ h3 {
     height: 100px;
     width: auto;
 }
+
 .right {
     margin-left: 45%;
 }
@@ -269,8 +279,14 @@ h3 {
         height: 247px;
         width: 400px
     }
-    .message {width: 80%}
-    .right {margin: 5px}
+
+    .message {
+        width: 80%
+    }
+
+    .right {
+        margin: 5px
+    }
 }
 
 @media only screen and (max-width: 1280px) {
