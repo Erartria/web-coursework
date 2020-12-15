@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing</title>
-    <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/common.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script async type="text/javascript" src="javascript/staff.js"></script>
     <script async type="text/javascript" src="javascript/sale.js"></script>
     <script async type="text/javascript" src="javascript/gallery.js"></script>
     <script async type="text/javascript" src="javascript/comment.js"></script>
     <script async type="text/javascript" src="javascript/json_reader.js"></script>
-    <script async type="text/javascript" src="javascript/staff.js"></script>
 </head>
 <header>
     <ul class="navigation inline">
@@ -133,12 +134,12 @@
             <input type="email" name="email" placeholder="Email"><br>
             <input type="text" name="user_name" placeholder="User name"><br>
             <input type="text" name="message_text" placeholder="Message"><br>
-            <input type="button" name="submit" value="Submit" onclick="mockMessage()">
+            <input type="button" name="submit" value="Submit" onclick="window.alert('Your message has been sent')">
         </form>
     </div>
 </article>
-<div id="up_buttons">
-    <a class="up_button btn" onclick="mockMessage()">
+<div id="up_buttons" class="hidden">
+    <a class="up_button btn" onclick="window.alert('Your message has been sent')">
         📧
     </a>
     <a class="up_button btn" href="#">
@@ -146,5 +147,5 @@
     </a>
 </div>
 </body>
-<script type="text/javascript" src="javascript/staff.js"></script>
+
 </html>

@@ -58,6 +58,7 @@ a {
 }
 
 /*CSS Reset*/
+
 body {
     font-family: Jost;
     background-color: rgba(135, 196, 253, 0.2);
@@ -119,11 +120,11 @@ h2 {
 }
 .btn {
     color: rgb(243,249,255);
+    background-color: #24b732;
     z-index: 1;
     cursor: pointer;
     border-radius: 25px;
     padding: 16px;
-    background-color: #24b732;
     font-weight: bold;
     text-align: center;
 }

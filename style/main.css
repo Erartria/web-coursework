@@ -16,6 +16,7 @@
 
 #banner_txt {
     font-size: 64px;
+    margin-bottom: 10px;
     font-family: Mistral;
 }
 
@@ -75,7 +76,6 @@ h3 {
 }
 
 .switch-buttons .btn {
-
     width: 138px;
     font-size: 25px;
     margin: 10px;
@@ -134,10 +134,12 @@ h3 {
 .opacity-img {
     opacity: 20%;
 }
+.item-description::-webkit-scrollbar {
+    width: 0 !important
+}
 
 .item-description {
-    overflow: hidden;
-    text-overflow: ellipsis;
+    overflow-y: auto;
     position: absolute;
     font-family: 'Times New Roman';
     font-weight: bold;
@@ -152,6 +154,7 @@ h3 {
     width: 215px;
     background: rgba(135, 196, 253, 0.1);
 }
+
 
 .hidden {
     display: none;
@@ -305,14 +308,16 @@ h3 {
         padding: 15px 0;
         width: 100%
     }
-
     #banner {
         display: block;
         text-align: center;
         width: auto
     }
-
+    #banner_txt {
+        margin-bottom: 10px;
+    }
     #photo-banner {
+        margin-top: 10px;
         display: block;
         text-align: center
     }
