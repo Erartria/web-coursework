@@ -58,8 +58,8 @@
 
 .context img:hover {
     position: fixed;
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 60vw;
+    max-height: 70vh;
     height: auto;
 
 }
