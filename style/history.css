@@ -4,7 +4,7 @@
     flex-direction: column;
     width: 100%;
     left: 0px;
-    background: #87D3FD;
+    background: rgba(135, 196, 253, 0.2);;
 }
 .info img {
     margin: 10px;

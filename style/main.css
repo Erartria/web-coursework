@@ -1,5 +1,5 @@
 #preview {
-    background: url(../img/main/farm.png) no-repeat, rgb(135, 196, 253);
+    background: url(../img/main/farm.png) no-repeat, rgba(135, 196, 253, 1);;
     background-size: cover;
     height: 800px;
 }
@@ -22,7 +22,6 @@
 #banner_btn {
     display: inline-block;
     font-size: 2em;
-    color: #BFFFC5;
     background-color: #24B732;
     font-weight: bold;
     padding-left: 66px;
@@ -55,7 +54,7 @@ h3 {
 }
 
 .title {
-    margin-bottom: 5px;
+    background-color: rgba(135, 196, 253, 0.1);
 }
 
 .title img {
@@ -64,42 +63,41 @@ h3 {
 }
 
 .switch-buttons {
-    margin-top: 19px;
+    background-color: rgba(135, 196, 253, 0.1);
+    padding-top: 20px;
 }
 
 .flex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-content: flex-start;
-    align-items: flex-start;
 }
 
 .switch-buttons .btn {
+
     width: 138px;
     font-size: 25px;
     margin: 10px;
 }
 
 .chosen {
-    background-color: #24B732;
-    color: #BFFFC5;
+    background-color: rgb(135, 196, 253);
+    color: black;
 }
 
 .item-list {
 
     width: 100%;
     height: auto;
-    background-color: #8CD4FD;
+    background-color: rgba(135, 196, 253, 0.2);
     border-radius: 4px;
 }
 
 .item {
-    margin-right: 16px;
-    margin-top: 3px;
+    margin: 10px;
     height: 329px;
     width: 285px;
-    background-color: rgba(204, 252, 255, 0.80);
+    background-color: rgb(135, 196, 253);
     border-radius: 53px;
 }
 
@@ -149,7 +147,7 @@ h3 {
     padding: 5px;
     height: 248px;
     width: 215px;
-    background: rgba(0, 128, 255, 0.35);
+    background: rgba(135, 196, 253, 0.1);
 }
 
 .hidden {
@@ -163,7 +161,6 @@ h3 {
 }
 
 .cost {
-    color: red;
     width: 200px;
     font-size: 20px;
     position: relative;
@@ -176,49 +173,37 @@ h3 {
     display: block;
 }
 
+#sales h2 {
+    color: #24B732;
+}
+
 .animal_milk-item {
     z-index: 2;
     max-width: 80%;
     height: 230px;
 }
 
-#sales .item-list {
-    background-color: #8CD4FD;
-    margin-top: 20px;
-}
-
-#sales .item {
-    background-color: rgba(255, 205, 75, 0.51);
-}
-
-#sales .item-description {
-    background: rgb(69, 137, 255);
-}
-
-#sales .cost {
-    color: #4d49cb;
-}
-
 #gallery {
     padding: 10px;
-    background-color: #8CD4FD;
+    background-color: rgba(135, 196, 253, 0.2);
 }
-
+#horse_gallery_thumbnails li{
+    margin: 0;
+}
 #horse_gallery_thumbnails {
-    margin-left: 2px;
     flex-direction: column;
     max-height: 500px;
 }
 
 .thumbnail {
-    border-radius: 25px;
+    margin-left: 10px;
     height: 93px;
     width: 130px;
     border: rgba(0, 0, 0, 0) 2px solid;
 }
 
 .active {
-    border: #00ffb9 2px solid;
+    border: #24B732 2px solid;
 }
 
 #main_photo {
@@ -230,13 +215,12 @@ h3 {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background: #8CD4FD;
-    margin-top: 20px;
+    background: rgba(135, 196, 253, 0.2);
 }
 .message {
     margin: 5px;
     flex-wrap: nowrap;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(135, 196, 253, 1);;
     padding: 10px;
     border-radius: 10px;
     width: 50%;

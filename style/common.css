@@ -60,14 +60,14 @@ a {
 /*CSS Reset*/
 body {
     font-family: Jost;
-
+    background-color: rgba(135, 196, 253, 0.2);
 }
 
 header {
+    background-color: rgb(243,249,255);
     z-index: 3;
     position: fixed;
     width: 100%;
-    background: white;
     border-bottom: 1px solid black;
 }
 
@@ -118,17 +118,18 @@ h2 {
     bottom: 50px;
 }
 .btn {
+    color: rgb(243,249,255);
     z-index: 1;
     cursor: pointer;
     border-radius: 25px;
     padding: 16px;
-    background-color: #0047ff;
-    color: #B9DDFF;
+    background-color: #24b732;
+    font-weight: bold;
     text-align: center;
 }
 .up_button {
     margin-left: 10px;
-    background: rgb(0, 71, 255);
+    background: rgb(135, 196, 253);
     opacity: 0.5;
 }
 
@@ -142,8 +143,7 @@ h2 {
 }
 
 .feedback_form_block{
-    background: #8CD4FD;
-    margin-top: 30px;
+    background-color: rgba(135, 196, 253, 0.3);;
 }
 input {
     border-radius: 10px;
@@ -151,7 +151,7 @@ input {
 
 form {
     border-radius: 5px;
-    background: #24B732;
+    background: #24b732;
     display: inline-block;
     padding: 70px;
     margin-top: 60px;
