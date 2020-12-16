@@ -112,6 +112,8 @@ h2 {
     color: #0047FF;
     font-size: 36px;
     text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 #up_buttons {
     position: fixed;
