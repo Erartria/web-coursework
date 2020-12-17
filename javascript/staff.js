@@ -6,7 +6,7 @@ const spaceRemake = function () {
 }
 
 window.addEventListener('scroll', function () {
-    if (pageYOffset+200 < document.documentElement.clientHeight)
+    if (pageYOffset-200 < document.documentElement.clientHeight)
         fixed_btns.classList.add('hidden')
     else
         fixed_btns.classList.remove('hidden')

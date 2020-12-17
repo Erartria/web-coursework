@@ -94,13 +94,19 @@ li {
 }
 
 header .phone {
+    position: relative;
     margin: 32px 32px 0 10px;
     float: right;
 }
 
 .phone::before {
-    content: '🕿';
-    margin-right: 5px;
+    position: absolute;
+    left: -20px;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url('../img/main/phone.png') no-repeat;
+    background-size: 14px 14px;
     color: black;
 }
 
