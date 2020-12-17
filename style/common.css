@@ -118,9 +118,13 @@ h2 {
     color: #0047FF;
     font-size: 36px;
     text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
 }
+
+.title {
+    padding: 14px;
+    background-color: rgba(135, 196, 253, 0.1);
+}
+
 #up_buttons {
     position: fixed;
     right: 50px;
